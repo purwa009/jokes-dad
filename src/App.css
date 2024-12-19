@@ -1,0 +1,33 @@
+.app-container {
+  background-color: #f69bd2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.joke-card {
+  width: 400px;
+  margin: 20px 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.joke-btn {
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-left: 200px;
+  justify-content: flex-end;
+}
+.text-title {
+  text-align: center;
+  color: blue; 
+  font-weight: bold;
+  margin-top: 4px;
+}
